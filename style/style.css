@@ -309,6 +309,7 @@ header .menu-items li a {
 .card > img{
   padding-block-start: 1em;
   margin-block-start: -2em;
+border-radius: 50%;
 }
 
 /* .home__bg{
