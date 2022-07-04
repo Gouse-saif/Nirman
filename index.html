@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirman</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- barbajs and gsap  -->
+    <!-- <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script> -->
+    <script src="assets/barba.umd.js"></script>
+    <script src="assets/gsap.min.js"></script>
+    
+</head>
+<body data-barba="wrapper">
+    <!-- loading screen  -->
+    <div class="loader">
+        <div class="page-transition"></div>
+    </div>
+    <!-- code from here  -->
+    <main data-barba="container" data-barba-namespace="home-section" class="home__bg">
+
+        <header>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            <ul class="menu-items">
+                <li class="active-clr"><a href="index.html" class="navLinks">Home</a></li>
+                <li><a href="banner.html" class="navLinks">Banner</a></li>
+                <li><a href="gallery.html" class="navLinks">Gallery</a></li>   
+                <li><a href="payment.html" class="navLinks">Payment</a></li>    
+            <ul/>
+        </header>
+
+        <div class="container">
+            <div class="word">
+                <span>N</span>
+                <span>I</span>
+                <span>R</span>
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+            </div>
+
+            <div class="main__container">
+                <div class="content">
+                    <p>
+                        PDA College Of Engineering Presents NIRMAN 2019.
+                    </p>
+                    <p style="margin-block-start:2em;">Event Organizer</p>
+                    <p style="margin-block-start:1em;">Team Members</p>
+                    <!-- <p>Lorem ipsum dolor sit.</p> -->
+                </div>
+                <div class="organizer">
+                    <div class="card">
+                        <img src="image/man.png" alt="image" width="150px">
+                        <p>Syed Ubedur Rahman</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/man.png" alt="image" width="150px">
+                        <p>Vrushab Mehta</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/man.png" alt="image" width="150px">
+                        <p>Rachana Vaidya</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <script src="script/app.js"></script>
+</body>
+</html>

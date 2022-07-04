@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirman</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- barbajs and gsap  -->
+    <!-- <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script> -->
+    <script src="assets/barba.umd.js"></script>
+    <script src="assets/gsap.min.js"></script>
+    
+</head>
+<body data-barba="wrapper">
+    <!-- loading screen  -->
+    <div class="loader">
+        <div class="page-transition"></div>
+    </div>
+    <!-- code from here  -->
+    <main data-barba="container" data-barba-namespace="home-section">
+
+        <header>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            <ul class="menu-items">
+                <li><a href="index.html" class="navLinks">Home</a></li>
+                <li><a href="banner.html" class="navLinks">Banner</a></li>
+                <li class="active-clr"><a href="gallery.html" class="navLinks">Gallery</a></li>   
+                <li><a href="payment.html" class="navLinks">Payment</a></li>    
+            <ul/>
+        </header>
+
+        <div class="gallery__container">
+  <div class="img__container">
+		<div id="carousel">
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0001.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0003.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0004.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+			<figure><img class="nirman__img"src="image/IMG-20220428-WA0002.jpg" alt=""></figure>
+		</div>
+	</div>
+        </div>
+    </main>
+
+    <script src="script/app.js"></script>
+</body>
+</html>
